@@ -1,0 +1,174 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background-color: #F2F2F2;
+
+}
+
+header{
+    margin: 0px auto;
+    position: relative;
+    width: 1000px;
+    
+}
+
+header p{
+    margin-top: 5px;
+    position: fixed;
+    right: 150px;
+    padding: 10px;
+    font-family: Arial Narrow;
+    font-size: small;
+    font-size: 14px;
+
+
+}
+
+header  a{
+    margin-top: 18px;
+    position: fixed;
+    right: 150px;
+    padding: 10px;
+    font-family: Arial Narrow;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+header  button{
+    margin-top: 12px;
+    position: fixed;
+    width: 130px;
+    right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #0174DF;
+    font-size: 15px;
+
+}
+
+header #imagen img{
+    
+    margin-top: 40px;
+    margin-left: 320px;
+   
+}
+
+.controles{
+
+    width: 320px;
+    padding: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.controles#contraseña{
+    background: url(img/password.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position:right;
+    text-decoration-color: #2E2E2E;
+}
+.formulario{
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: none;
+    border-style: groove;
+    text-align: center;
+}
+
+.formulario h3 {
+    font-size: 25px;
+    color: #2E2E2E;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.formulario h4 {
+    color: darkslategrey;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.formulario a {
+
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial Narrow;
+    font-size: 13px;
+}
+
+.formulario label{
+
+    left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: unset;
+    font-size: 15px;
+    color: darkslategrey;
+    text-align: justify;
+
+}
+
+.formulario p{
+    margin-left: 10px;
+    font-family: Microsoft Himalaya;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario button{
+    width: 320px;
+    background-color:#0174DF;
+    border-radius: 5px;
+    padding: 18px;
+    margin-left: 10px;
+    color: white; 
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+.terminos{
+    text-align:center;
+    font-size: 12px;
+    color: grey;
+}
+
+footer{
+    margin-top: 40px;
+    color: grey;
+   font-family: Arial;
+   
+
+}
+
+.final{
+    font-size: 14px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
