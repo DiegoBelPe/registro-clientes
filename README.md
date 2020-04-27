@@ -1,4 +1,4 @@
-# Formulario de registro y ingreso
+# Formulario de registro e ingreso
 
 _Guia de inicio de un formulario para ingreso y registro de clientes a la pagina web_
 
